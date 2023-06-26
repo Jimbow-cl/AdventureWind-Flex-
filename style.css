@@ -1,0 +1,312 @@
+/* CSS commun*/
+
+.backgroundpurple {
+    background-color: #132d71;
+}
+
+.colorpurple {
+    color: #132d71;
+}
+
+.colorwhite {
+    color: white;
+}
+
+.colorgray {
+    color: gray;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-top: 3px solid gray;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.nowrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align {
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    align-self: center;
+}
+
+.roboto48 {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.roboto36 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto36bold {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto20 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto20bold {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/* Début du CSS*/
+
+
+.page1 {
+    display: flex;
+    height: auto;
+    width: 100vw;
+    flex-flow: row wrap;
+    background-image: url("./svg/compass-svgrepo-com.png");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: -210px 373px;
+    background-size: 45%;
+}
+
+.colgauche {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.btn1 {
+    align-items: center;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.bouton1 {
+    margin-right: 3%;
+
+}
+
+.coldroite {
+    display: flex;
+}
+
+.page2 {
+    background-image: url("./svg/compass2-svgrepo-com.png");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: 1240px -250px;
+    background-size: 40%;
+    height: auto;
+    width: 100vw;
+}
+
+.logo2 {
+    justify-content: center;
+    width: auto;
+    height: 130px;
+}
+
+.bouton2 {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.items4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5%;
+}
+
+.logo3 {
+    height: auto;
+    width: 110px;
+}
+
+.separate {
+    height: 130px;
+    border-right: 7px solid #132d71;
+    position: relative;
+    bottom: -73px;
+}
+
+.icone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.page3 {
+    background-image: url("./svg/sailboat-svgrepo-com.png");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: -210px 300px;
+    background-size: 35%;
+    height: auto;
+    width: 100vw;
+}
+
+.gap {
+    gap: 5%;
+    column-gap: 10%;
+}
+
+.baseline {
+    align-items: baseline;
+    justify-content: center;
+}
+
+.content {
+    display: contents;
+}
+
+.mb5 {
+    margin-bottom: 5%;
+}
+
+.mb10 {
+
+    margin-bottom: 10%;
+}
+
+.mlmr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fmt {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.mtmb {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:1320px) {
+
+    .coldroite {
+        display: none;
+    }
+
+    .page1 {
+        background-position: -80px 680px;
+        background-size: 70%;
+    }
+
+    .separate {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .coldroite {
+        display: none;
+    }
+
+    .page1 {
+        background-position: -80px 680px;
+        background-size: 70%;
+    }
+
+    .separate {
+        display: none;
+    }
+
+    .p600 {
+        margin-left: 140px;
+
+    }
+
+    .p6001 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p6002 {
+        border-bottom: 2px solid #132d71;
+        margin-bottom: 30px;
+        align-items: center;
+        width: 90vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+    }
+
+    .p6003 {
+        border-bottom: 2px solid #ffffff;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+
+    .roboto48 {
+        font-size: 44px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+
+    }
+
+    .roboto36 {
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .roboto36bold {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .roboto20 {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .roboto20bold {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+}
